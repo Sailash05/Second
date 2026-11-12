@@ -6,6 +6,7 @@ public class Calculator {
 		
 		int a = 10;  // unused
 		
+		
 		System.out.println("Hello world");
 	}
 }
