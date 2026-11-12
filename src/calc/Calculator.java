@@ -1,12 +1,13 @@
 package calc;
+import java.util.logging.Logger;
 
 public class Calculator {
 	
+	private static final Logger logger = Logger.getLogger(Calculator.class.getName());
+	
 	public static void main(String[] args) {
+				
 		
-		int a = 10;  // unused
-		
-		
-		System.out.println("Hello world");
+		logger.info("Hello world");
 	}
 }
