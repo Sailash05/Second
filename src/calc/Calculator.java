@@ -8,6 +8,9 @@ public class Calculator {
 	public static void main(String[] args) {
 				
 		
-		logger.info("Hello world");
+		int a = 10;
+		String password = "admin";
+//		logger.info("Hello world");
+		System.out.println("hello world");
 	}
 }
