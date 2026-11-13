@@ -1,5 +1,6 @@
 package calc;
 import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class Calculator {
 	
@@ -36,5 +37,6 @@ public class Calculator {
 
       
     	logger.info("Hello world");
+    	logger.log(Level.INFO, "Addition: {0}", a + b);
 	}
 }
